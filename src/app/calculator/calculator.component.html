@@ -1,0 +1,11 @@
+
+<div>{{result}}</div>
+
+<input type="number" (input) = "enterFirstNumber($event)"/>
+<div>
+  <button (click)="onClick($event)">+</button>
+  <button (click)="onClick($event)">-</button>
+  <button (click)="onClick($event)">*</button>
+  <button (click)="onClick($event)">/</button>
+</div>
+<input type="number" (input) = "enterSecondNumber($event)"/>
